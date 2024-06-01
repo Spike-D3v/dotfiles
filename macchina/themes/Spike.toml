@@ -1,0 +1,48 @@
+# Spike
+spacing = 2
+padding = 2
+hide_ascii = false
+prefer_small_ascii = false
+separator = ".."
+# key_color = ""
+separator_color = "#ef105e"
+
+[palette]
+type = "Light"
+glyph = "[󰝤]"
+visible = true
+
+[box]
+title = " MACCHINA "
+border = "plain"
+visible = false
+
+[box.inner_margin]
+x = 1
+y = 1
+
+[custom_ascii]
+# color = "#EF105E"
+path = "~/.config/macchina/ascii.txt"
+
+[randomize]
+key_color = false
+separator_color = false
+
+[keys]
+host = "󰋜 Host"
+machine = "󰍹 Machine"
+kernel = " Kernel"
+distro = "󰣚 Distro"
+de = " DE"
+wm = " WM"
+packages = " Packages"
+terminal = " Terminal"
+shell = " Shell"
+uptime = "󰥔 Uptime"
+cpu = " Cpu"
+resolution = "󱣵 Resolution"
+backlight = "󰃝 Brightness %"
+cpu_load = "󰈸 Cpu %"
+memory = " Memory %"
+battery = "󰂅 Battery"
