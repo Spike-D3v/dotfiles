@@ -11,8 +11,8 @@ return {
 			require("mason-lspconfig").setup({
 				ensure_installed = {
 					"lua_ls",
-					"tsserver",
 					"pylsp",
+					"vtsls",
 					"angularls",
 					"astro",
 					"emmet_language_server",
@@ -29,7 +29,7 @@ return {
 
 			lspconfig.lua_ls.setup({ capabilities = capabilities })
 			lspconfig.pylsp.setup({ capabilities = capabilities })
-			lspconfig.tsserver.setup({ capabilities = capabilities })
+			lspconfig.vtsls.setup({ capabilities = capabilities })
 			lspconfig.angularls.setup({ capabilities = capabilities })
 			lspconfig.astro.setup({ capabilities = capabilities })
 			lspconfig.tailwindcss.setup({ capabilities = capabilities })

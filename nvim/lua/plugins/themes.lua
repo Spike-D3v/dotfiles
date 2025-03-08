@@ -31,4 +31,7 @@ return {
 			})
 		end,
 	},
+	{
+		"yorumicolors/yorumi.nvim"
+	}
 }
